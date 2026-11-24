@@ -1,0 +1,126 @@
+[
+  {
+    "id": "quest_silt_line",
+    "title": "The Silt-Line Compact",
+    "track": "frontier",
+    "subtitle": "Navigate Siltport's debt crisis, the Kestrel wreckage, and the Ledger Syndicate's grip on the rim.",
+    "stages": [
+      {
+        "id": "silt_stage_1",
+        "title": "Dockside Briefing",
+        "objective": "Speak with Dockmaster Renn at Siltport Outpost — Landing Pad about the Kestrel distress ping.",
+        "locationHint": "Siltport Outpost — Landing Pad",
+        "completedWhen": { "hasFlag": ["kestrel_lead_accepted"] }
+      },
+      {
+        "id": "silt_stage_2",
+        "title": "The Kestrel Incident",
+        "objective": "Jump to the Kestrel Wreckage in the Inner Drift and resolve the breach.",
+        "locationHint": "Kestrel Wreckage (1 Fuel)",
+        "completedWhen": { "hasFlag": ["kestrel_cleared"] }
+      },
+      {
+        "id": "silt_stage_3",
+        "title": "Decode the Blackbox",
+        "objective": "Bring the Kestrel's telemetry to Vexra Korr or SABLE-7 at Siltport Landing Pad to uncover what the Syndicate was hauling.",
+        "locationHint": "Siltport Outpost — Landing Pad",
+        "completedWhen": { "hasFlag": ["blackbox_decoded"] }
+      },
+      {
+        "id": "silt_stage_4_forehull",
+        "title": "The Missing Fore-Hull",
+        "objective": "Jump to the Kestrel Fore-Hull in the Mid-Drift to uncover what vitrified the ship and settle Taren's fate.",
+        "locationHint": "Kestrel Fore-Hull (1 Fuel)",
+        "completedWhen": { "hasFlag": ["forehull_cleared"] }
+      },
+      {
+        "id": "silt_stage_5_buoy",
+        "title": "The Rim's Ledger",
+        "objective": "Investigate Syndicate Buoy 14 in the Mid-Drift to uncover what Vane-Kael is funding with Siltport's tariffs.",
+        "locationHint": "Syndicate Buoy 14 (1 Fuel)",
+        "completedWhen": { "hasFlag": ["buoy14_resolved"] }
+      },
+      {
+        "id": "silt_stage_4",
+        "title": "The Tariff Standoff",
+        "objective": "Confront Syndicate Collector Vane-Kael at Rust & Cantina Row and decide Siltport's future.",
+        "locationHint": "Siltport Outpost — Rust & Cantina Row",
+        "completedWhen": {
+          "anyOf": [
+            { "hasFlag": ["siltport_free_charter"] },
+            { "hasFlag": ["siltport_syndicate_pact"] },
+            { "hasFlag": ["siltport_shadow_broker"] }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest_choir_of_ash",
+    "title": "The Choir of Ash",
+    "track": "cosmic",
+    "subtitle": "Trace the Pre-Collapse harmonic signal bleeding through your ship's nav-core to the Singing Monolith.",
+    "stages": [
+      {
+        "id": "choir_stage_1",
+        "title": "Ghosts in the Nav-Core",
+        "objective": "Travel to The Cinder Lark — Cockpit and investigate the harmonic echo with SABLE-7.",
+        "locationHint": "The Cinder Lark — Cockpit",
+        "completedWhen": { "hasFlag": ["nav_core_inspected"] }
+      },
+      {
+        "id": "choir_stage_2",
+        "title": "Break the Outer Reef",
+        "objective": "Upgrade your Ley-Braided Drive or Aether-Spectrum Sensors to Lv. 2 on the Ship tab.",
+        "locationHint": "Ship Tab (Drive or Sensors Lv. 2)",
+        "completedWhen": {
+          "anyOf": [
+            { "minShipUpgrade": { "drive": 2 } },
+            { "minShipUpgrade": { "sensors": 2 } }
+          ]
+        }
+      },
+      {
+        "id": "choir_stage_3_shoals",
+        "title": "The Glass Shoals",
+        "objective": "Navigate The Glass Shoals in the Deep Frontier to find Captain Tessa's Starling and learn the truth of the Collapse.",
+        "locationHint": "The Glass Shoals (2 Fuel)",
+        "completedWhen": { "hasFlag": ["shoals_cleared"] }
+      },
+      {
+        "id": "choir_stage_4_abbey",
+        "title": "The Listening Abbey",
+        "objective": "Visit The Listening Abbey to parley with Cantrix Vey and the Void Choir remnants.",
+        "locationHint": "The Listening Abbey (2 Fuel)",
+        "completedWhen": { "hasFlag": ["abbey_resolved"] }
+      },
+      {
+        "id": "choir_stage_5_anchor9",
+        "title": "Black-Site Anchor-9",
+        "objective": "Confront Collector Vane-Kael's grounding-lance ring at Anchor-9 before it fires on the Monolith.",
+        "locationHint": "Black-Site Anchor-9 (2 Fuel)",
+        "completedWhen": { "hasFlag": ["anchor9_resolved"] }
+      },
+      {
+        "id": "choir_stage_3",
+        "title": "Answer the Singing Monolith",
+        "objective": "Jump to The Singing Monolith in the Deep Frontier and decide the Keystone's fate.",
+        "locationHint": "The Singing Monolith (2 Fuel)",
+        "completedWhen": {
+          "anyOf": [
+            { "hasFlag": ["monolith_attuned"] },
+            { "hasFlag": ["monolith_severed"] },
+            { "hasFlag": ["monolith_harvested"] }
+          ]
+        }
+      },
+      {
+        "id": "choir_stage_7_reckoning",
+        "title": "The Lattice Reckoning",
+        "objective": "Return to Siltport Outpost — Landing Pad to see how your choices reshaped the Drift.",
+        "locationHint": "Siltport Outpost — Landing Pad",
+        "completedWhen": { "hasFlag": ["campaign_epilogue_done"] }
+      }
+    ]
+  }
+]

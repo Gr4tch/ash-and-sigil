@@ -1,0 +1,249 @@
+{
+  "ship": [
+    {
+      "id": "hull",
+      "name": "Ward-Riveted Hull Plating",
+      "shortName": "Hull",
+      "maxLevel": 3,
+      "description": "Layered ceramic-iron ribs etched with grounding sigils to absorb debris and void-shear.",
+      "levels": [
+        {
+          "level": 1,
+          "title": "Patched Rust-Plate",
+          "summary": "100 Max Hull integrity.",
+          "costs": {}
+        },
+        {
+          "level": 2,
+          "title": "Sigil-Tempered Bulkheads",
+          "summary": "130 Max Hull integrity and cleaner impact absorption.",
+          "costs": { "salvage": 3, "credits": 40 }
+        },
+        {
+          "level": 3,
+          "title": "Aegis Carapace",
+          "summary": "160 Max Hull integrity; shrugs off heavy anomaly shear.",
+          "costs": { "salvage": 6, "credits": 90, "aetherShards": 1 }
+        }
+      ]
+    },
+    {
+      "id": "drive",
+      "name": "Ley-Braided Impulse Drive",
+      "shortName": "Drive",
+      "maxLevel": 3,
+      "description": "A twin-chamber thruster burning refined aether cells through copper rune-injectors.",
+      "levels": [
+        {
+          "level": 1,
+          "title": "Sputtering Drift-Coil",
+          "summary": "6 Max Fuel; reaches the inner wreckage belt.",
+          "costs": {}
+        },
+        {
+          "level": 2,
+          "title": "Deep-Rim Ley Burner",
+          "summary": "8 Max Fuel; unlocks deep-frontier jumps like The Singing Monolith.",
+          "costs": { "salvage": 3, "credits": 50, "aetherShards": 1 }
+        },
+        {
+          "level": 3,
+          "title": "Harmonic Overdrive",
+          "summary": "10 Max Fuel; crisp acceleration under Syndicate pursuit.",
+          "costs": { "salvage": 6, "credits": 110, "aetherShards": 2 }
+        }
+      ]
+    },
+    {
+      "id": "sensors",
+      "name": "Aether-Spectrum Array",
+      "shortName": "Sensors",
+      "maxLevel": 3,
+      "description": "Rotating brass dishes paired with quartz resonance needles to map dead beacons and ward-nets.",
+      "levels": [
+        {
+          "level": 1,
+          "title": "Short-Band Drift Ping",
+          "summary": "Basic radar and distress beacon lock.",
+          "costs": {}
+        },
+        {
+          "level": 2,
+          "title": "Harmonic Triangulation",
+          "summary": "Unlocks deep-frontier navigation (The Singing Monolith) and tactical storylet cues.",
+          "costs": { "salvage": 2, "credits": 45, "aetherShards": 1 }
+        },
+        {
+          "level": 3,
+          "title": "Dead-Band Ghost Sight",
+          "summary": "Pierces jamming clouds and reveals hidden hull weaknesses.",
+          "costs": { "salvage": 5, "credits": 95, "aetherShards": 2 }
+        }
+      ]
+    },
+    {
+      "id": "cargo",
+      "name": "Shielded Salvage Hold",
+      "shortName": "Cargo",
+      "maxLevel": 3,
+      "description": "Lead-and-warded cargo bays for hauling volatile cores and heavy scrap without cooking the crew.",
+      "levels": [
+        {
+          "level": 1,
+          "title": "Lashed Crate Deck",
+          "summary": "Standard salvage capacity.",
+          "costs": {}
+        },
+        {
+          "level": 2,
+          "title": "Aether-Lined Bays",
+          "summary": "Improves salvage yields on wreck dives.",
+          "costs": { "salvage": 3, "credits": 35 }
+        },
+        {
+          "level": 3,
+          "title": "Smuggler's Ward-Vault",
+          "summary": "Shielded compartments for high-grade relics.",
+          "costs": { "salvage": 5, "credits": 85, "aetherShards": 1 }
+        }
+      ]
+    },
+    {
+      "id": "workbench",
+      "name": "Magi-Tech Artificer's Bench",
+      "shortName": "Workbench",
+      "maxLevel": 3,
+      "description": "A heavy slate bench wired with micro-arc welders and silver-ink etching needles.",
+      "levels": [
+        {
+          "level": 1,
+          "title": "Field Splicing Rig",
+          "summary": "Unlocks Tier-1 Skill Synergies.",
+          "costs": {}
+        },
+        {
+          "level": 2,
+          "title": "Sigil-Splicer Loom",
+          "summary": "Unlocks Tier-2 Skill Synergies (Aegis Hull-Weave).",
+          "costs": { "salvage": 3, "credits": 50, "aetherShards": 2 }
+        },
+        {
+          "level": 3,
+          "title": "Master Ley-Loom",
+          "summary": "Peak artificing precision for frontier relics.",
+          "costs": { "salvage": 6, "credits": 120, "aetherShards": 3 }
+        }
+      ]
+    }
+  ],
+  "base": [
+    {
+      "id": "dock",
+      "name": "Landing Cradle & Gantry",
+      "shortName": "Dock",
+      "maxLevel": 3,
+      "description": "Siltport's iron landing pad, fuel hoses, and overhead chain-cranes.",
+      "levels": [
+        {
+          "level": 1,
+          "title": "Cracked Silt Pad",
+          "summary": "Basic berthing and manual hull patching.",
+          "costs": {}
+        },
+        {
+          "level": 2,
+          "title": "Braced Gantry & Hoist",
+          "summary": "Cuts Credit hull repair costs by 25% and revives Siltport's skyline.",
+          "costs": { "salvage": 3, "credits": 40 }
+        },
+        {
+          "level": 3,
+          "title": "Heavy Drydock Rig",
+          "summary": "Cuts Credit hull repair costs by 50%.",
+          "costs": { "salvage": 6, "credits": 90, "aetherShards": 1 }
+        }
+      ]
+    },
+    {
+      "id": "cantina",
+      "name": "The Copper Kettle Cantina",
+      "shortName": "Cantina",
+      "maxLevel": 2,
+      "description": "A corrugated tin-and-neon watering hole where drifters trade rumors over spiced rust-gin.",
+      "levels": [
+        {
+          "level": 0,
+          "title": "Boarded Shanty",
+          "summary": "Shuttered and dark; only a few scavengers linger outside.",
+          "costs": {}
+        },
+        {
+          "level": 1,
+          "title": "Lit Hearth & Rumor Tap",
+          "summary": "Reopens the cantina, draws frontier crews, and eases crew recruitment.",
+          "costs": { "salvage": 2, "credits": 35 }
+        },
+        {
+          "level": 2,
+          "title": "Deep-Rim Exchange",
+          "summary": "Attracts high-end brokers and steadies Siltport's economy.",
+          "costs": { "salvage": 5, "credits": 80, "aetherShards": 1 }
+        }
+      ]
+    },
+    {
+      "id": "forge",
+      "name": "Runesmith's Foundry",
+      "shortName": "Forge",
+      "maxLevel": 2,
+      "description": "Induction crucibles and ward-etching anvils built into an old freighter hull.",
+      "levels": [
+        {
+          "level": 0,
+          "title": "Cold Crucible",
+          "summary": "Unlit furnace; no local sigil-forging support.",
+          "costs": {}
+        },
+        {
+          "level": 1,
+          "title": "Stoked Induction Hearth",
+          "summary": "Reduces Salvage cost of Workbench Synergies by 1 (min 1) and transforms Siltport.",
+          "costs": { "salvage": 3, "credits": 45, "aetherShards": 1 }
+        },
+        {
+          "level": 2,
+          "title": "Master Ward-Foundry",
+          "summary": "Precision alloy casting for frontier expeditions.",
+          "costs": { "salvage": 6, "credits": 100, "aetherShards": 2 }
+        }
+      ]
+    },
+    {
+      "id": "archive",
+      "name": "Signal-Glass Archive",
+      "shortName": "Archive",
+      "maxLevel": 2,
+      "description": "Racks of salvaged crystal telemetry spools and pre-collapse star-charts.",
+      "levels": [
+        {
+          "level": 0,
+          "title": "Dusty Relay Shed",
+          "summary": "Dead monitors and tangled copper leads.",
+          "costs": {}
+        },
+        {
+          "level": 1,
+          "title": "Restored Glyph-Readers",
+          "summary": "Boosts Lore/Tech insight on settlement & relic checks.",
+          "costs": { "salvage": 2, "credits": 40, "aetherShards": 1 }
+        },
+        {
+          "level": 2,
+          "title": "Deep-Chart Vault",
+          "summary": "Maps ancient monolith harmonics across the sector.",
+          "costs": { "salvage": 5, "credits": 95, "aetherShards": 2 }
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,90 @@
 @import "tailwindcss";
+
+:root,
+[data-theme="dark"] {
+  --bg-app: #110e0c;
+  --bg-surface: #1a1512;
+  --bg-card: #221b17;
+  --bg-elevated: #2c231e;
+  --border-subtle: #3b2d22;
+  --text-primary: #ece4d7;
+  --text-muted: #a89b8c;
+  --accent-amber: #d98a3c;
+  --accent-amber-soft: rgba(217, 138, 60, 0.16);
+  --accent-cyan: #38bdf8;
+  --accent-cyan-soft: rgba(56, 189, 248, 0.14);
+  --accent-danger: #f87171;
+  --accent-danger-soft: rgba(248, 113, 113, 0.16);
+  --accent-success: #4ade80;
+  --accent-success-soft: rgba(74, 222, 128, 0.15);
+}
+
+[data-theme="light"] {
+  --bg-app: #f6f1e7;
+  --bg-surface: #efe8da;
+  --bg-card: #ffffff;
+  --bg-elevated: #f3ede2;
+  --border-subtle: #cbbba4;
+  --text-primary: #161311;
+  --text-muted: #5c5044;
+  --accent-amber: #9a460b;
+  --accent-amber-soft: rgba(154, 70, 11, 0.12);
+  --accent-cyan: #0369a1;
+  --accent-cyan-soft: rgba(3, 105, 161, 0.12);
+  --accent-danger: #b91c1c;
+  --accent-danger-soft: rgba(185, 28, 28, 0.12);
+  --accent-success: #15803d;
+  --accent-success-soft: rgba(21, 128, 61, 0.12);
+}
+
+[data-text-size="sm"] {
+  --prose-size: 0.9rem;
+  --prose-leading: 1.55;
+}
+
+[data-text-size="md"] {
+  --prose-size: 1rem;
+  --prose-leading: 1.65;
+}
+
+[data-text-size="lg"] {
+  --prose-size: 1.125rem;
+  --prose-leading: 1.72;
+}
+
+html,
+body {
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: contain;
+}
+
+.prose-story {
+  font-size: var(--prose-size, 1rem);
+  line-height: var(--prose-leading, 1.65);
+}
+
+.pt-safe {
+  padding-top: max(0.5rem, env(safe-area-inset-top));
+}
+
+.pb-safe {
+  padding-bottom: max(0.5rem, env(safe-area-inset-bottom));
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-beat {
+  animation: fadeSlideIn 0.22s ease-out both;
+}

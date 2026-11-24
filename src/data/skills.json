@@ -1,0 +1,103 @@
+{
+  "skills": [
+    {
+      "id": "plasma_marksmanship",
+      "name": "Plasma Marksmanship",
+      "category": "combat",
+      "description": "Disciplined trigger-control for unstable frontier plasma coils, reading heat-bloom before recoil kicks."
+    },
+    {
+      "id": "phase_weaving",
+      "name": "Phase-Weaving",
+      "category": "arcana",
+      "description": "Folding a sliver of aether-light around matter so it slips through barriers for a fraction of a heartbeat."
+    },
+    {
+      "id": "scrap_juryrig",
+      "name": "Scrap Jury-Rigging",
+      "category": "tech",
+      "description": "Coaxing blown relays, cracked manifolds, and stubborn ward-locks back into service with copper wire and grit."
+    },
+    {
+      "id": "void_cryptography",
+      "name": "Void Cryptography",
+      "category": "field",
+      "description": "Decoding Syndicate cipher-beacons and pre-collapse glyph-headers before counter-intrusion spikes trip."
+    },
+    {
+      "id": "aether_warding",
+      "name": "Aether Warding",
+      "category": "arcana",
+      "description": "Etching protective grounding sigils into bulkhead plating to bleed off harmonic surges."
+    },
+    {
+      "id": "phase_vanishing_rifle",
+      "name": "Phase-Vanishing Plasma Carbine",
+      "category": "combat",
+      "description": "Magi-tech synergy: superheated plasma bolts phase-shift mid-flight, materializing behind deflector wards.",
+      "synergyResult": true
+    },
+    {
+      "id": "glyph_bypass_rig",
+      "name": "Resonant Bypass Rig",
+      "category": "tech",
+      "description": "Magi-tech synergy: a handheld copper-and-quartz probe that spoofs both digital locks and rune-seals.",
+      "synergyResult": true
+    },
+    {
+      "id": "aegis_capacitance",
+      "name": "Aegis Hull-Weave",
+      "category": "arcana",
+      "description": "Magi-tech synergy: routes excess thruster plasma into a shimmering ward-lattice across the hull.",
+      "synergyResult": true
+    }
+  ],
+  "synergies": [
+    {
+      "id": "syn_phase_carbine",
+      "resultSkillId": "phase_vanishing_rifle",
+      "name": "Phase-Vanishing Plasma Carbine",
+      "ingredients": ["plasma_marksmanship", "phase_weaving"],
+      "minWorkbenchLevel": 1,
+      "costs": {
+        "salvage": 2,
+        "aetherShards": 1
+      },
+      "grantItemId": "item_phase_carbine",
+      "hiddenCounters": {
+        "sigil_scarred": 1
+      },
+      "description": "Braids Phase-Weaving coils around a Plasma Carbine barrel so shots blink straight through ward-screens."
+    },
+    {
+      "id": "syn_glyph_bypass",
+      "resultSkillId": "glyph_bypass_rig",
+      "name": "Resonant Bypass Rig",
+      "ingredients": ["scrap_juryrig", "void_cryptography"],
+      "minWorkbenchLevel": 1,
+      "costs": {
+        "salvage": 2,
+        "aetherShards": 1
+      },
+      "hiddenCounters": {
+        "sigil_scarred": 1
+      },
+      "description": "Splices a jury-rigged signal cracker with glyph-ciphers to open sealed vaults and Syndicate relays."
+    },
+    {
+      "id": "syn_aegis_weave",
+      "resultSkillId": "aegis_capacitance",
+      "name": "Aegis Hull-Weave",
+      "ingredients": ["aether_warding", "scrap_juryrig"],
+      "minWorkbenchLevel": 2,
+      "costs": {
+        "salvage": 3,
+        "aetherShards": 2
+      },
+      "hiddenCounters": {
+        "sigil_scarred": 1
+      },
+      "description": "Laces the ship's outer ribs with grounded rune-busbars to blunt anomaly shocks."
+    }
+  ]
+}

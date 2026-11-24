@@ -1,0 +1,114 @@
+[
+  {
+    "id": "oathkeeper",
+    "name": "Oathkeeper",
+    "kind": "identity",
+    "axis": "creed",
+    "oppositeId": "cutthroat",
+    "threshold": 2,
+    "description": "You keep your word in a sector where contracts are written in rust and broken in vacuum.",
+    "effectSummary": "Unlocks trust-based parleys and seals Cutthroat."
+  },
+  {
+    "id": "cutthroat",
+    "name": "Cutthroat",
+    "kind": "identity",
+    "axis": "creed",
+    "oppositeId": "oathkeeper",
+    "threshold": 2,
+    "description": "You strip hulls before checking pulses. Sentiment is dead weight in the Drift.",
+    "effectSummary": "Unlocks ruthless intimidation options and seals Oathkeeper."
+  },
+  {
+    "id": "ghost",
+    "name": "Ghost",
+    "kind": "identity",
+    "axis": "approach",
+    "oppositeId": "dread",
+    "threshold": 2,
+    "description": "Sensors slide off your silhouette. You slip through ward-nets before anyone hears the hum.",
+    "effectSummary": "Unlocks silent bypasses and seals Dread."
+  },
+  {
+    "id": "dread",
+    "name": "Dread",
+    "kind": "identity",
+    "axis": "approach",
+    "oppositeId": "ghost",
+    "threshold": 2,
+    "description": "Syndicate patrols know the whine of your plasma coils—and scatter when they hear it.",
+    "effectSummary": "Unlocks shock-and-awe dominance and seals Ghost."
+  },
+  {
+    "id": "purist",
+    "name": "Cold-Iron Purist",
+    "kind": "identity",
+    "axis": "arcana",
+    "oppositeId": "aether_bound",
+    "threshold": 2,
+    "description": "You trust riveted steel, grounded copper, and hard math over whispering ley-glass.",
+    "effectSummary": "Resists anomaly bleed and seals Aether-Bound."
+  },
+  {
+    "id": "aether_bound",
+    "name": "Aether-Bound",
+    "kind": "identity",
+    "axis": "arcana",
+    "oppositeId": "purist",
+    "threshold": 2,
+    "description": "Your marrow hums at the same frequency as cracked monoliths and star-runes.",
+    "effectSummary": "Unlocks deep harmonic attunements and seals Cold-Iron Purist."
+  },
+  {
+    "id": "warden",
+    "name": "Frontier Warden",
+    "kind": "identity",
+    "axis": "horizon",
+    "oppositeId": "drifter",
+    "threshold": 2,
+    "description": "You stake your boots in Siltport's dust and refuse to let the Syndicate tax the rim dry.",
+    "effectSummary": "Inspires settlers and seals Lone Drifter."
+  },
+  {
+    "id": "drifter",
+    "name": "Lone Drifter",
+    "kind": "identity",
+    "axis": "horizon",
+    "oppositeId": "warden",
+    "threshold": 2,
+    "description": "Outposts are just fuel stops. Your only true allegiance is to an open throttle.",
+    "effectSummary": "Sharpens independent grit and seals Frontier Warden."
+  },
+  {
+    "id": "void_touched",
+    "name": "Void-Touched",
+    "kind": "scar",
+    "threshold": 1,
+    "description": "An aether backlash burned frost-blue capillaries into your forearm. You hear dead relays sing.",
+    "effectSummary": "Stackable scar from surviving Resonance & anomaly mishaps."
+  },
+  {
+    "id": "unbroken",
+    "name": "Unbroken",
+    "kind": "scar",
+    "threshold": 1,
+    "description": "Steel buckled, alarms screamed, and you stayed at the stick anyway.",
+    "effectSummary": "Stackable scar earned by enduring brutal setbacks without fleeing."
+  },
+  {
+    "id": "scrap_savvy",
+    "name": "Scrap-Savvy",
+    "kind": "scar",
+    "threshold": 1,
+    "description": "You brought a bleeding hull home on a prayer and welded it whole with your own torch.",
+    "effectSummary": "Stackable mastery earned by patching a battered ship with salvage."
+  },
+  {
+    "id": "sigil_scarred",
+    "name": "Sigil-Scarred",
+    "kind": "scar",
+    "threshold": 1,
+    "description": "Ozone and molten silver-wire live beneath your fingernails from splicing spells into hardware.",
+    "effectSummary": "Stackable mastery earned by forging magi-tech synergies at the Workbench."
+  }
+]

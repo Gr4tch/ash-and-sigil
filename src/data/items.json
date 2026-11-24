@@ -1,0 +1,62 @@
+[
+  {
+    "id": "item_drifter_manual",
+    "name": "Scorched Drifter's Manual",
+    "category": "intel",
+    "description": "Margin notes in grease-pencil detailing Kestrel distress beacons and emergency plasma venting."
+  },
+  {
+    "id": "item_kestrel_blackbox",
+    "name": "Kestrel Sigil-Drive Blackbox",
+    "category": "intel",
+    "description": "A soot-blackened crystalline cylinder humming with pre-breach telemetry and ley-line coordinates."
+  },
+  {
+    "id": "item_phase_carbine",
+    "name": "Phase-Vanishing Plasma Carbine",
+    "category": "gear",
+    "description": "A heavy frontier plasma rifle wrapped in silver phase-coils. Its bolts flicker out of realspace to bypass ward-shields."
+  },
+  {
+    "id": "item_monolith_fork",
+    "name": "Monolith Tuning Fork",
+    "category": "relic",
+    "description": "A slate-black shard that vibrates whenever deep-rim anomalies wake. Worth a fortune—or a doorway."
+  },
+  {
+    "id": "item_unmarked_urn",
+    "name": "Lead-Wrapped Choir Urn",
+    "category": "relic",
+    "description": "A sealed ceramic-and-quartz cylinder humming in three-part harmony beneath lead foil."
+  },
+  {
+    "id": "item_syndicate_audit",
+    "name": "Vane-Kael's Private Audit",
+    "category": "intel",
+    "description": "Encrypted Buoy 14 filings proving Collector Vane-Kael diverted Siltport's tariffs to fund Deep Frontier containment black-site Anchor-9."
+  },
+  {
+    "id": "item_taren_compass",
+    "name": "Taren's Brass Ley-Compass",
+    "category": "relic",
+    "description": "A battered navigator's compass whose needle ignores magnetic north and trembles toward Pre-Collapse monoliths."
+  },
+  {
+    "id": "item_tessa_core",
+    "name": "Captain Tessa's Echo-Core",
+    "category": "relic",
+    "description": "A frost-rimed flight recorder from the Starling proving the Singing Monolith is a stabilizing keystone, not a weapon."
+  },
+  {
+    "id": "item_choir_hymnal",
+    "name": "Cantrix Vey's Harmonic Key",
+    "category": "relic",
+    "description": "A silver-and-quartz resonator tuned by the Listening Abbey to harmonize the Deep Frontier Lattice."
+  },
+  {
+    "id": "item_anchor9_override",
+    "name": "Anchor-9 Scuttling Override",
+    "category": "intel",
+    "description": "Cold-iron command key for Anchor-9's grounding lances and containment ring."
+  }
+]

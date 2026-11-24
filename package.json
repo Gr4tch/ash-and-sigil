@@ -7,6 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
+    "predeploy": "npm run validate:story && npm run build",
+    "deploy": "gh-pages -d dist",
     "validate:story": "node scripts/validate-story.mjs"
   },
   "dependencies": {
@@ -19,6 +21,7 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.3.0",
+    "gh-pages": "^6.3.0",
     "typescript": "^5.8.3",
     "vite": "^8.0.0",
     "vite-plugin-pwa": "^2.0.0"

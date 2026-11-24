@@ -1,0 +1,91 @@
+{
+  "races": [
+    {
+      "id": "human_driftborn",
+      "name": "Driftborn Human",
+      "tagline": "Stubborn rim-stock who built Siltport out of rusted hulls and grit.",
+      "description": "Raised between pressurized tin towns and sputtering ley-tugs, Driftborn carry no natural arcana—only an instinct for rallying desperate crews when the air runs thin.",
+      "statBonus": "presence",
+      "hiddenStatBonus": "warden",
+      "hiddenHint": "Outpost settlers tend to recognize one of their own."
+    },
+    {
+      "id": "aether_elf",
+      "name": "Aether-Elf",
+      "tagline": "Long-lived starfarers whose marrow still remembers the Pre-Collapse lattice.",
+      "description": "Silver-irised and slender, Aether-Elves hear harmonic drift long before ship sensors register it. Many Syndicate overseers fear what they might wake in the deep reef.",
+      "statBonus": "resonance",
+      "hiddenStatBonus": "aether_bound",
+      "hiddenHint": "Ley-glass and ancient obelisks hum a little louder in your palm."
+    },
+    {
+      "id": "ironkin_dwarf",
+      "name": "Ironkin Dwarf",
+      "tagline": "Vault-forged engineers who trust riveted steel over whispered magic.",
+      "description": "Broad-chested and soot-handed, Ironkin clans kept the outer drydocks spinning after the Collapse. They treat erratic spells as a wiring fault waiting for a wrench.",
+      "statBonus": "tech",
+      "hiddenStatBonus": "purist",
+      "hiddenHint": "Grounded copper and honest torque never lied to anyone."
+    },
+    {
+      "id": "vexari",
+      "name": "Vexari",
+      "tagline": "Void-adapted reptilian scouts with heat-sensing scales and quiet boots.",
+      "description": "Evolved in dim asteroid warrens, Vexari read thermal leaks and patrol blindspots like an open ledger. They prefer slipping past a ward-net to kicking it down.",
+      "statBonus": "guile",
+      "hiddenStatBonus": "ghost",
+      "hiddenHint": "Even shipboard sensors seem reluctant to pin down your silhouette."
+    },
+    {
+      "id": "ironforged",
+      "name": "Ironforged",
+      "tagline": "Decommissioned rune-chassis mercenaries carrying a furnace where a heart should be.",
+      "description": "Built during the Tariff Wars and later cast off to scrap, Ironforged pilots endure hull-shocks and plasma recoil that would pulping flesh-and-bone crews.",
+      "statBonus": "grit",
+      "hiddenStatBonus": "dread",
+      "hiddenHint": "Syndicate deckhands still flinch at the whine of your servo-joints."
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": "syndicate_defector",
+      "name": "Syndicate Defector",
+      "tagline": "You walked off a Ledger-Cutter with a stolen transponder and a price on your name.",
+      "description": "Years of enforcing customs blockades taught you every bribe, back-channel cipher, and blind spot in the Inner Drift.",
+      "statBonus": "guile",
+      "flavorHook": "You know how Syndicate captains think—and when they're bluffing."
+    },
+    {
+      "id": "ley_scholar",
+      "name": "Ley-Archive Scholar",
+      "tagline": "Disgraced from the Core Academies for reading forbidden Pre-Collapse charts.",
+      "description": "You spent a decade translating dead star-script and harmonic tables before funding dried up and the Syndicate sealed your archive.",
+      "statBonus": "lore",
+      "flavorHook": "Dead relays and basalt obelisks aren't gibberish to you."
+    },
+    {
+      "id": "rim_mercenary",
+      "name": "Rim Mercenary",
+      "tagline": "Hired gun for convoy escorts until your last contractor stiffed the crew.",
+      "description": "You've traded plasma fire in zero-g corridors and walked away from three hull breaches with your boots still magnetized.",
+      "statBonus": "grit",
+      "flavorHook": "When negotiations sour, you're already reaching for the carbine."
+    },
+    {
+      "id": "wreck_salvager",
+      "name": "Wreck-Salvager",
+      "tagline": "Born with a plasma torch in one hand and a dead ship's schematic in the other.",
+      "description": "You've stripped half a dozen drifting hulks before Syndicate cutters arrived, coaxing dead reactors back to life on copper wire.",
+      "statBonus": "tech",
+      "flavorHook": "No bulkhead stays sealed once you find its junction box."
+    },
+    {
+      "id": "freebooter_envoy",
+      "name": "Freebooter Envoy",
+      "tagline": "Smooth-talking broker between cantina syndicates and desperate outpost mayors.",
+      "description": "You've talked trigger-happy captains down from airlock spacing with nothing but a warm grin and well-timed debt.",
+      "statBonus": "presence",
+      "flavorHook": "Every dockmaster on the rim owes someone—you just figure out who."
+    }
+  ]
+}

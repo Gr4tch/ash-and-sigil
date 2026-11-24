@@ -1,0 +1,233 @@
+[
+  {
+    "id": "codex_cinder_lark",
+    "title": "The Cinder Lark's Salvage Registry",
+    "category": "drift",
+    "summary": "Your battered courier hull carries more patched bulkheads than original plates.",
+    "body": [
+      "Registry records list The Cinder Lark as a light magi-tech courier decommissioned after the Ash-Line Skirmish. Three previous captains welded their own copper ley-busbars into her spine before she fell into your hands.",
+      "SABLE-7, the ship's surviving navigation intelligence, insists at least two of those captains never actually disembarked—their telemetry habits still echo in the nav-core."
+    ],
+    "unlockHint": "Complete your cryo-pod intake aboard The Cinder Lark."
+  },
+  {
+    "id": "codex_silt_line",
+    "title": "The Silt-Line & Inner Drift",
+    "category": "drift",
+    "summary": "A rust-choked corridor of shattered freighters, gravel eddies, and desperate outposts.",
+    "body": [
+      "Where the inner star-lanes thin out, iron dust and fractured moons gather in slow-turning eddies known as the Silt-Line. Navigation relies on amber beacon buoys and sheer nerve.",
+      "Outposts like Siltport survive by stripping derelicts before Syndicate customs cutters can slap a salvage lien on the wreckage."
+    ],
+    "unlockHint": "Speak with Dockmaster Renn at Siltport Landing Pad."
+  },
+  {
+    "id": "codex_syndicate_tithe",
+    "title": "The Ledger Syndicate's Tithe",
+    "category": "factions",
+    "summary": "Corporate bailiffs who tax every liter of aether fuel and every weld on the rim.",
+    "body": [
+      "Founded by Core-sector shipping magnates after the Collapse, the Ledger Syndicate enforces order through debt charters and orbital tariff cutters. Pay your tithe, and their beacons keep your lane clear.",
+      "Fall behind, and Collector Vane-Kael's inspectors impound your drive core—leaving your crew stranded in red dust."
+    ],
+    "unlockHint": "Learn about the Syndicate's squeeze on Siltport."
+  },
+  {
+    "id": "codex_kestrel_manifest",
+    "title": "Courier Brig Kestrel — Sealed Manifest",
+    "category": "factions",
+    "summary": "The Kestrel wasn't hauling ore—she was carrying Pre-Collapse tuning schematics.",
+    "body": [
+      "Official port logs claimed the Kestrel carried refined copper ingots. In truth, her aft ward-bubble held a Syndicate blackbox keyed to deep-rim harmonic beacons.",
+      "Whatever sheared her spine in the Inner Drift didn't use conventional plasma—the hull edges were vitrified into singing glass."
+    ],
+    "unlockHint": "Breach and resolve the Kestrel Wreckage."
+  },
+  {
+    "id": "codex_pre_collapse_lattice",
+    "title": "The Pre-Collapse Ley-Lattice",
+    "category": "history",
+    "summary": "Before the skies broke, starships rode woven rivers of resonant aether.",
+    "body": [
+      "Centuries ago, the Architects braided star-lanes out of basalt obelisks and living rune-circuits, allowing vessels to glide between systems without burning raw shards.",
+      "When the Lattice shattered, most relays went silent—except in the Deep Frontier, where stray monoliths still answer ships carrying old-frequency keys."
+    ],
+    "unlockHint": "Decode the Kestrel's blackbox."
+  },
+  {
+    "id": "codex_aether_bleed",
+    "title": "Harmonic Aether Bleed",
+    "category": "anomalies",
+    "summary": "Why dead relays sing—and why unshielded pilots hear voices in the static.",
+    "body": [
+      "Raw aether shards store kinetic and psychic impressions alike. When a nav-core or ward-coil overheats near an anomaly, residual memories bleed across the ship's copper conduits.",
+      "Purists ground it out with cold iron; Aether-Bound pilots learn to read the melody."
+    ],
+    "unlockHint": "Investigate the ghosts in The Cinder Lark's nav-core."
+  },
+  {
+    "id": "codex_siltport_charter",
+    "title": "The Siltport Free Charter",
+    "category": "factions",
+    "summary": "An outpost's fate hinges on who holds the gantry cranes and fuel ledgers.",
+    "body": [
+      "Founded by three wreck-diving families, Siltport was promised independence under the Rim Accord—a promise the Ledger Syndicate quietly buried beneath emergency docking tariffs.",
+      "Whether Siltport stands free, kneels to the Syndicate, or runs a shadow-market truce depends on who controls the Kestrel leverage."
+    ],
+    "unlockHint": "Confront Collector Vane-Kael during the Tariff Standoff."
+  },
+  {
+    "id": "codex_singing_monolith",
+    "title": "The Singing Monolith",
+    "category": "anomalies",
+    "summary": "Three hundred meters of matte-black basalt humming with forgotten coordinates.",
+    "body": [
+      "Suspended upright in deep vacuum beyond the Syndicate buoys, the Singing Monolith predates every human and Vexari colony in the sector.",
+      "Its fluted faces wake only when answered by a resonant harmonic—revealing either a doorway to the wider stars or a wound best left sealed."
+    ],
+    "unlockHint": "Reach and confront the Singing Monolith in the Deep Frontier."
+  },
+  {
+    "id": "codex_ash_glass_brokers",
+    "title": "Ash-Glass & Cantina Brokers",
+    "category": "drift",
+    "summary": "Forbidden phase-weaves and stolen Syndicate ciphers traded over rust-gin.",
+    "body": [
+      "Behind corrugated shutters in Rust & Cantina Row, hooded brokers press silver-etched wafers into oil drums. Half are counterfeit; the rest can bend plasma around a deflector shield.",
+      "Old Iron Bramwell says the best intel on the rim never touches a port terminal—it's whispered over a shared brazier."
+    ],
+    "unlockHint": "Deal with the rumor brokers in Siltport's Cantina Row."
+  },
+  {
+    "id": "codex_void_choir",
+    "title": "Echoes of the Void Choir",
+    "category": "history",
+    "summary": "Smugglers call them 'singing urns'—relays that remember the moment the Lattice fell.",
+    "body": [
+      "Scattered across the outer reef are sealed ceramic-and-quartz urns recovered from Pre-Collapse listening posts. Even muffled in lead foil, they hum in three-part harmony.",
+      "The Syndicate pays handsomely to lock them away; the Choir's remnants pay even more to hear them sing."
+    ],
+    "unlockHint": "Inspect contraband along Siltport's smuggling lanes."
+  },
+  {
+    "id": "codex_rim_accord",
+    "title": "The Rim Accord & Siltport's Debt",
+    "category": "factions",
+    "summary": "A forgotten independence charter undermined by an emergency water-bailout rider.",
+    "body": [
+      "Three wreck-diving families founded Siltport under the Rim Accord—a Core-sanctioned promise of free-port autonomy in exchange for keeping Inner Drift salvage lanes clear.",
+      "Seven years ago, when Siltport's main moisture vaporators failed during a dry-season dust siege, Dockmaster Renn signed an emergency Syndicate bailout rider. Collector Vane-Kael has used its compounding penalty clauses to strangle the port ever since."
+    ],
+    "unlockHint": "Speak with Dockmaster Renn about Siltport's history."
+  },
+  {
+    "id": "codex_tariff_wars",
+    "title": "The Tariff Wars",
+    "category": "history",
+    "summary": "Two decades ago, customs disputes turned into plasma broadsides across the Inner Drift.",
+    "body": [
+      "Before the Ledger Syndicate perfected debt-charter enforcement, outer-rim guilds fought open skirmishes against corporate blockade cutters. Decommissioned Ironforged chassis and half the wrecks in the Silt-Line date back to those five bloody years.",
+      "When the guilds ran out of refined fuel, the Syndicate bought up the surviving drydocks—and made sure no independent captain could ever afford a fleet again."
+    ],
+    "unlockHint": "Listen to Old Iron Bramwell's stories by the brazier."
+  },
+  {
+    "id": "codex_cinder_captains",
+    "title": "Three Captains of The Cinder Lark",
+    "category": "drift",
+    "summary": "Orlov, Tessa, and a nameless courier left more than weld-scars in your ship's spine.",
+    "body": [
+      "Before The Cinder Lark drifted into your hands, three captains flew her: Captain Orlov, who braided her copper ley-conduits by hand; Captain Tessa, who vanished chasing a three-note harmonic past the Glass Shoals; and a silent courier who never logged a destination.",
+      "SABLE-7's diagnostic matrix was patched from all three pilots' flight recorders—which may explain why she occasionally hums a tune she never learned."
+    ],
+    "unlockHint": "Ask SABLE-7 about The Cinder Lark's previous captains."
+  },
+  {
+    "id": "codex_kestrel_forehull",
+    "title": "The Missing Fore-Hull",
+    "category": "anomalies",
+    "summary": "Half of the courier brig Kestrel wasn't destroyed—it was carried deeper into the Drift.",
+    "body": [
+      "Blackbox telemetry confirms the Kestrel suffered a violent harmonic shear, vitrifying her mid-deck into singing glass. Yet her forward bridge and cargo prow never broke up in the gravel eddy.",
+      "A single faint distress pulse—too weak for standard port dishes—pinged from the Mid-Drift hours after the shear, before going dark."
+    ],
+    "unlockHint": "Decode the Kestrel's sigil-drive blackbox."
+  },
+  {
+    "id": "codex_slag_foundry",
+    "title": "The Slag Foundry & Ironkin Clans",
+    "category": "drift",
+    "summary": "An independent Ironkin smelter-barge turning Tariff War scrap into honest iron.",
+    "body": [
+      "After the Tariff Wars left dozens of escort hulls drifting in the Mid-Drift, Ironkin engineers lashed two decommissioned ore-barges together and lit induction crucibles in open vacuum.",
+      "Forgemaster Durn's clan distrusts Syndicate bailiffs and Choir mystics alike—they trade only with captains who respect torque, fair weight, and kept promises."
+    ],
+    "unlockHint": "Visit The Slag Foundry in the Mid-Drift."
+  },
+  {
+    "id": "codex_buoy_14",
+    "title": "Buoy 14 & The Anchor-9 Charter",
+    "category": "factions",
+    "summary": "Why the Ledger Syndicate squeezes every rim port dry: a silent black-site in the deep reef.",
+    "body": [
+      "Officially, Buoy 14 is a routine customs repeater logging docking tariffs. Inside its encrypted partition lies a different ledger: millions in rim tithes funneled into Deep Frontier quarantine station Anchor-9.",
+      "Collector Vane-Kael believes the Pre-Collapse Lattice caused the Collapse—and uses rim taxes to bankroll containment spikes before the Choir can wake it again."
+    ],
+    "unlockHint": "Crack or raid Syndicate Buoy 14 in the Mid-Drift."
+  },
+  {
+    "id": "codex_choir_shear",
+    "title": "The Vitrifying Shear",
+    "category": "anomalies",
+    "summary": "What happens when an experimental Choir relay-key fires inside an unshielded hull.",
+    "body": [
+      "The Kestrel didn't fall to pirates or Syndicate gunnery. When her experimental relay-key resonated with the Singing Monolith, the resulting harmonic wave turned mid-deck steel into translucent glass in a fraction of a second.",
+      "Its forward half was flung cleanly into the Mid-Drift along the ley-current."
+    ],
+    "unlockHint": "Resolve the Kestrel Fore-Hull anomaly."
+  },
+  {
+    "id": "codex_glass_shoals",
+    "title": "The Glass Shoals",
+    "category": "anomalies",
+    "summary": "A graveyard of vitrified ships surrounding the Deep Frontier's outer reef.",
+    "body": [
+      "Whenever an uncalibrated vessel rides a broken ley-current too close to the Monolith, the harmonic backlash vitrifies steel into singing crystal.",
+      "Captain Tessa's Starling rests at the shoals' center—a warning and a breadcrumb trail for those who know how to listen."
+    ],
+    "unlockHint": "Navigate The Glass Shoals in the Deep Frontier."
+  },
+  {
+    "id": "codex_listening_abbey",
+    "title": "The Listening Abbey",
+    "category": "factions",
+    "summary": "A hollowed comet where the Void Choir's last archivists tend the memory of the Lattice.",
+    "body": [
+      "Far from the zealots Vane-Kael fears, the monks of the Listening Abbey are archivists who preserve Pre-Collapse star-charts and voice-urns.",
+      "They believe the Singing Monolith is a wounded keystone—and that shattering it with cold iron would doom the entire sector."
+    ],
+    "unlockHint": "Visit The Listening Abbey in the Deep Frontier."
+  },
+  {
+    "id": "codex_anchor_9",
+    "title": "Black-Site Anchor-9",
+    "category": "factions",
+    "summary": "The Ledger Syndicate's secret cold-iron weapons ring built to silence the Monolith.",
+    "body": [
+      "Bankrolled by decades of rim tariffs, Anchor-9 mounts six orbital grounding lances designed to pierce the Singing Monolith's basalt core.",
+      "Vane-Kael built it out of genuine terror of a second Collapse—unaware that firing it could trigger the very shear he hopes to prevent."
+    ],
+    "unlockHint": "Confront Anchor-9 in the Deep Frontier."
+  },
+  {
+    "id": "codex_true_collapse",
+    "title": "The Truth of the Collapse",
+    "category": "history",
+    "summary": "The Architects' Lattice didn't attack the stars—it was holding a deep-void rift closed.",
+    "body": [
+      "Captain Tessa's telemetry reveals why the Singing Monolith keeps pulsing: it is one of the last intact anchor-nodes holding back a gravitational and aether shear in the Deep Frontier.",
+      "It can be harmonized back into balance, carefully anchored silent—or greedily bled dry at the sector's peril."
+    ],
+    "unlockHint": "Recover Captain Tessa's Echo-Core from The Glass Shoals."
+  }
+]

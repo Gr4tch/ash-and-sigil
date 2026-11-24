@@ -1,0 +1,267 @@
+[
+  {
+    "id": "npc_sable",
+    "name": "SABLE-7",
+    "shortName": "SABLE-7",
+    "title": "Shipboard Nav-Intelligence",
+    "role": "Pilot AI & Archive",
+    "faction": "crew",
+    "homeLocationId": "ship_cockpit",
+    "recruitable": false,
+    "mentorshipStats": ["lore", "resonance"],
+    "description": "A dry-humored navigation intelligence stitched together from decommissioned courier telemetry. She insists she is strictly diagnostic—yet remembers habits from captains who never disembarked.",
+    "notes": [
+      {
+        "id": "sable_base",
+        "text": "Keeps The Cinder Lark's ley-conduits balanced and logs every jump."
+      },
+      {
+        "id": "sable_ghosts",
+        "text": "Her nav-core carries harmonic echoes from three previous captains—one of whom vanished in the Deep Frontier.",
+        "requiresFlag": "nav_core_inspected"
+      },
+      {
+        "id": "sable_captains",
+        "text": "She still keeps Captain Tessa's last aborted jump vector archived in a locked partition.",
+        "requiresFlag": "sable_captains_told"
+      },
+      {
+        "id": "sable_tessa_log",
+        "text": "Played back Captain Tessa's final audio log from the Glass Shoals, confronting what makes her more than stitched code.",
+        "requiresFlag": "sable_bond2_done"
+      },
+      {
+        "id": "sable_fourth_captain",
+        "text": "Let go of Tessa's ghost and claimed her own place as your permanent copilot.",
+        "requiresFlag": "sable_bond3_done"
+      }
+    ]
+  },
+  {
+    "id": "npc_renn",
+    "name": "Dockmaster Renn",
+    "shortName": "Renn",
+    "title": "Siltport Gantry Chief",
+    "role": "Outpost Steward",
+    "faction": "siltport",
+    "homeLocationId": "base_landing_pad",
+    "recruitable": false,
+    "mentorshipStats": ["presence", "grit"],
+    "description": "Grease-stained, raspy-voiced, and held upright by stubbornness. Renn has kept Siltport's cranes turning through three Syndicate tariff hikes.",
+    "notes": [
+      {
+        "id": "renn_kestrel",
+        "text": "Sent you after the Kestrel hoping for leverage against Collector Vane-Kael's impoundment writ.",
+        "requiresFlag": "kestrel_lead_accepted"
+      },
+      {
+        "id": "renn_accord",
+        "text": "Signed an emergency Syndicate water-bailout rider seven years ago to save Siltport from a famine—and carries the guilt daily.",
+        "requiresFlag": "renn_secret_accord"
+      },
+      {
+        "id": "renn_charter",
+        "text": "Staked Siltport's independence on your backing when Vane-Kael came to collect.",
+        "requiresFlag": "siltport_free_charter"
+      },
+      {
+        "id": "renn_epilogue",
+        "text": "Saw Siltport through the Lattice Reckoning and into a new era on the rim.",
+        "requiresFlag": "campaign_epilogue_done"
+      }
+    ]
+  },
+  {
+    "id": "npc_vexra",
+    "name": "Vexra \"Sparks\" Korr",
+    "shortName": "Vexra",
+    "title": "Runesmith Artificer",
+    "role": "Shipwright & Sigil Tutor",
+    "faction": "crew",
+    "homeLocationId": "base_landing_pad",
+    "recruitable": true,
+    "romanceable": true,
+    "mentorshipStats": ["tech", "resonance"],
+    "description": "Pulled from the sheared aft-deck of the Kestrel with a copper-braided gauntlet still sparking. She treats ley-capacitors like stubborn mules.",
+    "perkSummary": "Cuts ship & base credit costs by 10% and unlocks Kestrel blackbox training.",
+    "notes": [
+      {
+        "id": "vexra_kestrel",
+        "text": "Survived the Kestrel's shearing inside an improvised ward-bubble; her brother was still on the fore-deck.",
+        "requiresFlag": "kestrel_cleared"
+      },
+      {
+        "id": "vexra_blackbox",
+        "text": "Helped crack the Kestrel's sigil-drive telemetry, exposing the Syndicate's monolith mapping.",
+        "requiresFlag": "blackbox_decoded"
+      },
+      {
+        "id": "vexra_taren",
+        "text": "Designed the relay-key aboard the Kestrel; her brother Taren was still on the missing fore-hull when it sheared.",
+        "requiresFlag": "vexra_brother_taren"
+      },
+      {
+        "id": "vexra_taren_saved",
+        "text": "You pulled her brother Taren out of the Kestrel's vitrified prow—a debt she won't ever forget.",
+        "requiresFlag": "forehull_taren_saved"
+      },
+      {
+        "id": "vexra_taren_lost",
+        "text": "Carries the cold grief of losing Taren in the fore-hull's collapse.",
+        "requiresFlag": "forehull_taren_lost"
+      },
+      {
+        "id": "vexra_brace",
+        "text": "Welded a custom silver harmonic brace onto The Cinder Lark before your final Monolith run.",
+        "requiresFlag": "vexra_bond3_done"
+      }
+    ]
+  },
+  {
+    "id": "npc_bramwell",
+    "name": "Bramwell \"Old Iron\" Hade",
+    "shortName": "Bramwell",
+    "title": "Veteran Salvager",
+    "role": "Outpost Quartermaster",
+    "faction": "siltport",
+    "homeLocationId": "base_market",
+    "recruitable": true,
+    "mentorshipStats": ["grit", "tech"],
+    "description": "A broad-shouldered wreck-diver with a brass-riveted lung-filter and encyclopedic memory for Syndicate patrol lanes.",
+    "perkSummary": "Boosts Salvage Exchange prices by +2 Cr and tracks Syndicate patrol lanes.",
+    "notes": [
+      {
+        "id": "bramwell_lungs",
+        "text": "Decades of breathing aether-dust left him tethered to a brass lung-filter—and wary of rookies burning out fast.",
+        "minTrust": 1
+      },
+      {
+        "id": "bramwell_war",
+        "text": "Lost his old salvage crew to a ruptured ley-pocket during the Tariff Wars; swore he'd never watch another good pilot go under.",
+        "requiresFlag": "bramwell_war_story"
+      },
+      {
+        "id": "bramwell_foundry",
+        "text": "Vouched for you with Forgemaster Durn's Ironkin crew at the Slag Foundry.",
+        "requiresFlag": "foundry_ironkin_ally"
+      }
+    ]
+  },
+  {
+    "id": "npc_mirek",
+    "name": "Sister Mirek",
+    "shortName": "Mirek",
+    "title": "Ash-Glass Broker",
+    "role": "Information & Cipher Fence",
+    "faction": "drift",
+    "homeLocationId": "base_market",
+    "recruitable": false,
+    "romanceable": true,
+    "mentorshipStats": ["guile", "lore"],
+    "description": "A hooded broker dealing in forbidden phase-weaves and stolen Syndicate ciphers behind Cantina Row's tin shutters. Her pale eyes miss nothing.",
+    "notes": [
+      {
+        "id": "mirek_wafers",
+        "text": "Trades silver-etched data wafers off dead relays; rumors say she once heard the Void Choir herself.",
+        "minTrust": 1
+      },
+      {
+        "id": "mirek_choir",
+        "text": "Once served as a Void Choir listener until she burned out her own resonance to escape the Lattice's pull.",
+        "requiresFlag": "mirek_former_choir"
+      },
+      {
+        "id": "mirek_abbey",
+        "text": "Confirmed the Listening Abbey still survives past the Glass Shoals—and fears what Anchor-9 is planning.",
+        "requiresFlag": "mirek_bond2_done"
+      },
+      {
+        "id": "mirek_vigil",
+        "text": "Kept watch over Cantina Row's lanterns while you sailed into the Deep Frontier.",
+        "requiresFlag": "mirek_bond3_done"
+      }
+    ]
+  },
+  {
+    "id": "npc_lyra",
+    "name": "Courier Lyra",
+    "shortName": "Lyra",
+    "title": "Freebooter Runner",
+    "role": "Smuggler & Relay Runner",
+    "faction": "drift",
+    "homeLocationId": "base_market",
+    "recruitable": false,
+    "romanceable": true,
+    "mentorshipStats": ["guile", "presence"],
+    "description": "A quick-footed smuggler who moves Choir relics and hot manifests past Syndicate customs sweeps without blinking.",
+    "notes": [
+      {
+        "id": "lyra_urn",
+        "text": "Trusted you with a lead-wrapped Choir memory-urn when Syndicate sniffers locked down the main pad.",
+        "minTrust": 1
+      },
+      {
+        "id": "lyra_rooftop",
+        "text": "Her mother vanished during a Syndicate listening-post quarantine; she runs Choir relics to keep the memory alive.",
+        "requiresFlag": "lyra_rooftop_bond"
+      },
+      {
+        "id": "lyra_betrayed",
+        "text": "Sworn enemy after you handed her Choir urn over to Syndicate inspectors.",
+        "requiresFlag": "lyra_betrayed"
+      }
+    ]
+  },
+  {
+    "id": "npc_rook",
+    "name": "Rook",
+    "shortName": "Rook",
+    "title": "Freelance Wreck-Diver",
+    "role": "Inner Drift Scavenger",
+    "faction": "drift",
+    "homeLocationId": "frontier_kestrel",
+    "recruitable": false,
+    "mentorshipStats": ["grit", "guile"],
+    "description": "A wiry salvager in a patched vac-suit who knows every loose rivet and live capacitor in the Inner Drift's ship graveyards.",
+    "notes": [
+      {
+        "id": "rook_kestrel",
+        "text": "Works the Kestrel's lower reactor deck with a plasma cutter and a sharp eye for rival claims.",
+        "minTrust": 1
+      },
+      {
+        "id": "rook_partner",
+        "text": "Splits prime salvage pallets with you without hesitation—a rare truce in the Inner Drift.",
+        "minTrust": 2
+      }
+    ]
+  },
+  {
+    "id": "npc_vanekael",
+    "name": "Collector Vane-Kael",
+    "shortName": "Vane-Kael",
+    "title": "Ledger Syndicate Bailiff",
+    "role": "Tariff Enforcer",
+    "faction": "syndicate",
+    "homeLocationId": "base_market",
+    "recruitable": false,
+    "description": "Immaculately pressed in slate-gray wool even in Siltport's red dust. Vane-Kael enforces Syndicate debt charters with a silver stylus—and believes only iron control keeps the Rim from waking the Lattice.",
+    "notes": [
+      {
+        "id": "vanekael_forged",
+        "text": "The Kestrel blackbox proved he falsified Siltport's tariff arrears to justify impounding the outpost.",
+        "requiresFlag": "blackbox_decoded"
+      },
+      {
+        "id": "vanekael_anchor9",
+        "text": "Diverts rim tariffs into Deep Frontier black-site Anchor-9 to keep the Pre-Collapse Lattice sealed by force.",
+        "requiresFlag": "buoy14_intel_recovered"
+      },
+      {
+        "id": "vanekael_confronted",
+        "text": "Confronted over Anchor-9's grounding lances in the Deep Frontier.",
+        "requiresFlag": "anchor9_resolved"
+      }
+    ]
+  }
+]

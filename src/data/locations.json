@@ -1,0 +1,347 @@
+[
+  {
+    "id": "ship_cockpit",
+    "name": "The Cinder Lark — Cockpit",
+    "region": "Your Vessel",
+    "category": "ship",
+    "fuelCost": 0,
+    "baseDescription": "Cracked amber-glass canopy plates frame the rust-haze of the Drift. Copper-braided ley conduits hum behind the throttles, smelling faintly of hot ozone and burnt lubricant.",
+    "descriptionVariants": [
+      {
+        "priority": 10,
+        "requirements": { "maxHullPercent": 55 },
+        "text": "Red telltales blink across the instrument cowling. Somewhere aft, a buckled rib groans with every attitude-thruster pulse."
+      },
+      {
+        "priority": 20,
+        "requirements": {
+          "anyOf": [
+            { "minShipUpgrade": { "drive": 2 } },
+            { "minShipUpgrade": { "sensors": 2 } }
+          ]
+        },
+        "text": "With your upgraded arrays online, the nav-slate projects crisp blue ley-vectors deep into the outer reef—clear past the Syndicate listening buoys."
+      },
+      {
+        "priority": 30,
+        "requirements": { "hasFlag": ["syndicate_tagged"] },
+        "text": "An amber transponder-warning LED blinks steadily on the lower cowling—Halden's cutter or customs sweep tagged your hull signature."
+      }
+    ]
+  },
+  {
+    "id": "ship_workbench",
+    "name": "The Cinder Lark — Magi-Tech Bay",
+    "region": "Your Vessel",
+    "category": "ship",
+    "fuelCost": 0,
+    "baseDescription": "A bolted slate workbench sits wedged between the reactor bulkhead and a rack of scorched plasma cells. Silver-etching needles and flux-solder wait under a swinging brass lamp.",
+    "descriptionVariants": [
+      {
+        "priority": 10,
+        "requirements": { "minShipUpgrade": { "workbench": 2 } },
+        "text": "Twin sigil-splicer arms now overhang the slate, humming in sympathetic resonance whenever you lay raw aether shards beside cold steel."
+      },
+      {
+        "priority": 20,
+        "requirements": { "hasHiddenStat": ["sigil_scarred"] },
+        "text": "Scorch-rings and faint blue runes stain the benchtop—proof of custom magi-tech hardware forged by your own hands."
+      }
+    ]
+  },
+  {
+    "id": "base_landing_pad",
+    "name": "Siltport Outpost — Landing Pad",
+    "region": "Siltport Outpost",
+    "category": "base",
+    "fuelCost": 0,
+    "baseDescription": "Red iron dust swirls across cracked ferro-concrete slabs. A hand-painted windsock snaps over a rusted gantry while moisture vaporators wheeze along the perimeter fence.",
+    "descriptionVariants": [
+      {
+        "priority": 10,
+        "requirements": { "minBaseUpgrade": { "dock": 2 } },
+        "text": "Freshly welded crane trusses tower over the pad, floodlit by amber arc-lamps. Hydraulic hoses hiss as dockhands haul scrap pallets clear."
+      },
+      {
+        "priority": 20,
+        "requirements": { "minBaseUpgrade": { "forge": 1 } },
+        "text": "From the converted freighter hull on the east berm, the Runesmith's Foundry vents rhythmic plumes of blue-white induction sparks."
+      },
+      {
+        "priority": 30,
+        "requirements": { "hasNpc": ["npc_vexra"] },
+        "text": "Vexra Korr leans against a fuel drum near the pad, calipers in one grease-stained hand and a glowing ley-capacitor in the other."
+      },
+      {
+        "priority": 40,
+        "requirements": { "hasFlag": ["act1_complete"] },
+        "text": "Word of the Kestrel blackbox and Vane-Kael's forged tariff ledger has begun to ripple through the gantry crews."
+      },
+      {
+        "priority": 50,
+        "requirements": { "hasFlag": ["campaign_epilogue_done"] },
+        "text": "Gantry floodlights burn steady over Siltport's repaired pad—no longer a dying scrap-yard, but a port whose name carries across the Drift."
+      }
+    ]
+  },
+  {
+    "id": "base_market",
+    "name": "Siltport Outpost — Rust & Cantina Row",
+    "region": "Siltport Outpost",
+    "category": "base",
+    "fuelCost": 0,
+    "baseDescription": "Corrugated tin awnings sag over a narrow alley of battery-peddlers and scrap-brokers. The Copper Kettle's shutters rattle in the dry wind, waiting for someone to bankroll its hearth.",
+    "descriptionVariants": [
+      {
+        "priority": 10,
+        "requirements": { "minBaseUpgrade": { "cantina": 1 } },
+        "text": "Warm amber light spills from the Copper Kettle's open doors. Freebooters argue over star-charts while spiced rust-gin and synth-smoke drift into the alley."
+      },
+      {
+        "priority": 20,
+        "requirements": { "minBaseUpgrade": { "archive": 1 } },
+        "text": "Across the lane, the Signal-Glass Archive's restored crystal spools cast pale cyan latticework across the dust."
+      },
+      {
+        "priority": 30,
+        "requirements": { "hasNpc": ["npc_bramwell"] },
+        "text": "Old Iron Bramwell holds court by the corner brazier, trading Syndicate patrol timings for battered hull plates."
+      },
+      {
+        "priority": 40,
+        "requirements": { "hasFlag": ["siltport_free_charter"] },
+        "text": "The Syndicate tariff booth stands shuttered and stenciled with Siltport's free-port seal—dockhands walk taller under the tin awnings."
+      },
+      {
+        "priority": 41,
+        "requirements": { "hasFlag": ["siltport_syndicate_pact"] },
+        "text": "Ledger Syndicate customs banners hang beside the Copper Kettle. Cargo moves smoothly, though every crate carries a stamped tax seal."
+      },
+      {
+        "priority": 42,
+        "requirements": { "hasFlag": ["siltport_shadow_broker"] },
+        "text": "Syndicate inspectors still patrol the main lane, yet look the other way whenever your ship's sigil passes the gantry."
+      },
+      {
+        "priority": 50,
+        "requirements": { "hasFlag": ["mirek_debt"] },
+        "text": "A fresh chalk tally-mark is scratched beside Sister Mirek's tin shutter—a quiet reminder of the favor you owe her."
+      },
+      {
+        "priority": 51,
+        "requirements": { "hasFlag": ["lyra_betrayed"] },
+        "text": "Freebooter couriers pull their collars up and go silent whenever your boots crunch past the corner brazier."
+      }
+    ]
+  },
+  {
+    "id": "frontier_kestrel",
+    "name": "Kestrel Wreckage",
+    "region": "Inner Drift",
+    "category": "frontier",
+    "fuelCost": 1,
+    "baseDescription": "The courier brig Kestrel hangs bisected in a slow-tumbling gravel eddy. Torn copper rune-cables whip lazily from its severed spine, and an amber distress ping pulses every six seconds.",
+    "descriptionVariants": [
+      {
+        "priority": 10,
+        "requirements": { "hasFlag": ["kestrel_cleared"] },
+        "text": "With the main cabin breached and its blackbox pulled, the Kestrel drifts quieter now—still rich with exposed conduits and unpicked hull plating for bold scavengers."
+      }
+    ]
+  },
+  {
+    "id": "frontier_kestrel_fore",
+    "name": "Kestrel Fore-Hull",
+    "region": "Mid-Drift",
+    "category": "frontier",
+    "fuelCost": 1,
+    "travelRequirements": {
+      "hasFlag": ["blackbox_decoded"]
+    },
+    "travelLockedHint": "Decode the Kestrel blackbox to pinpoint the fore-hull's drift vector.",
+    "baseDescription": "Half a courier brig hangs canted inside a slow-spinning ring of vitrified glass shards. Its severed steel edges catch the starlight like dark obsidian, and a faint amber pulse flickers behind the forward bridge viewport.",
+    "descriptionVariants": [
+      {
+        "priority": 10,
+        "requirements": { "hasFlag": ["forehull_taren_saved"] },
+        "text": "The forward ward-bubble is dark and vented now—its relay-key stripped, its last survivor safely aboard."
+      },
+      {
+        "priority": 11,
+        "requirements": { "hasFlag": ["forehull_taren_lost"] },
+        "text": "Ice crystals glitter inside the breached bridge canopy. The Kestrel's prow drifts cold and silent in the Mid-Drift."
+      }
+    ]
+  },
+  {
+    "id": "frontier_slag_foundry",
+    "name": "The Slag Foundry",
+    "region": "Mid-Drift",
+    "category": "frontier",
+    "fuelCost": 1,
+    "travelRequirements": {
+      "hasFlag": ["blackbox_decoded"]
+    },
+    "travelLockedHint": "Requires Mid-Drift navigation vectors from the Kestrel blackbox.",
+    "baseDescription": "Two decommissioned ore-barges welded snout-to-snout form a roaring Ironkin salvage foundry. Induction arcs spit blue-white sparks into vacuum while magnetic grapples haul shattered Tariff War plating into the crucibles.",
+    "descriptionVariants": [
+      {
+        "priority": 10,
+        "requirements": { "hasFlag": ["foundry_ironkin_ally"] },
+        "text": "Forgemaster Durn's dockhands flash Siltport's amber recognition strobe as your hull approaches the berth."
+      },
+      {
+        "priority": 20,
+        "requirements": { "hasFlag": ["lyra_betrayed"] },
+        "text": "Shadows linger along the upper catwalks—freebooter runners watching every docking clamp that locks onto the barge."
+      }
+    ]
+  },
+  {
+    "id": "frontier_buoy_14",
+    "name": "Syndicate Buoy 14",
+    "region": "Mid-Drift",
+    "category": "frontier",
+    "fuelCost": 1,
+    "travelRequirements": {
+      "hasFlag": ["blackbox_decoded"]
+    },
+    "travelLockedHint": "Requires Mid-Drift navigation vectors from the Kestrel blackbox.",
+    "baseDescription": "A bristling slate-gray customs spire anchored to a metallic asteroid. Twin rotating dish-arrays sweep the Mid-Drift lanes, relaying tariff ledgers and deep-rim quarantine telemetry.",
+    "descriptionVariants": [
+      {
+        "priority": 10,
+        "requirements": { "hasFlag": ["buoy14_hacked"] },
+        "text": "Its exterior running lights still blink green in rhythmic ignorance, unaware its encrypted audit partition was siphoned clean."
+      },
+      {
+        "priority": 11,
+        "requirements": { "hasFlag": ["buoy14_raided"] },
+        "text": "Scorched plating and a dead port sensor mast mark where you forced the customs spire open."
+      }
+    ]
+  },
+  {
+    "id": "frontier_glass_shoals",
+    "name": "The Glass Shoals",
+    "region": "Deep Frontier",
+    "category": "frontier",
+    "fuelCost": 2,
+    "travelRequirements": {
+      "anyOf": [
+        { "minShipUpgrade": { "drive": 2 } },
+        { "minShipUpgrade": { "sensors": 2 } }
+      ]
+    },
+    "travelLockedHint": "Requires Ley-Braided Drive Lv. 2 or Aether-Spectrum Sensors Lv. 2",
+    "baseDescription": "Dozens of ancient and modern vessels hang frozen inside a slow-turning reef of vitrified hull-glass. Starlight refracts through translucent prows in long, singing prisms.",
+    "descriptionVariants": [
+      {
+        "priority": 10,
+        "requirements": { "hasFlag": ["shoals_tessa_found"] },
+        "text": "Captain Tessa's courier hull, the Starling, drifts quiet at the center of the reef—its echo-core safely aboard your ship."
+      },
+      {
+        "priority": 20,
+        "requirements": { "hasFlag": ["monolith_awakened"] },
+        "text": "Pale cyan ley-ribbons now thread cleanly between the glass wrecks, guiding deep-rim pilots past the shear."
+      }
+    ]
+  },
+  {
+    "id": "frontier_listening_abbey",
+    "name": "The Listening Abbey",
+    "region": "Deep Frontier",
+    "category": "frontier",
+    "fuelCost": 2,
+    "travelRequirements": {
+      "anyOf": [
+        { "minShipUpgrade": { "drive": 2 } },
+        { "minShipUpgrade": { "sensors": 2 } }
+      ]
+    },
+    "travelLockedHint": "Requires Ley-Braided Drive Lv. 2 or Aether-Spectrum Sensors Lv. 2",
+    "baseDescription": "A hollowed iron comet studded with brass acoustic dishes and leaded-glass lancets. Inside its pressurized nave, robed Choir remnants tend humming quartz tuning-spires.",
+    "descriptionVariants": [
+      {
+        "priority": 10,
+        "requirements": { "hasFlag": ["abbey_allied"] },
+        "text": "Cantrix Vey's acolytes flash warm amber docking lamps along the comet's ridge as The Cinder Lark approaches."
+      },
+      {
+        "priority": 11,
+        "requirements": { "hasFlag": ["abbey_strained"] },
+        "text": "The Abbey's outer shutters remain sealed—watching your ship with wary, silent brass dishes."
+      },
+      {
+        "priority": 20,
+        "requirements": { "hasFlag": ["monolith_severed"] },
+        "text": "With the Monolith silenced, the comet's quartz spires stand mute—its acolytes packing relics for a quiet exodus."
+      }
+    ]
+  },
+  {
+    "id": "frontier_anchor_9",
+    "name": "Black-Site Anchor-9",
+    "region": "Deep Frontier",
+    "category": "frontier",
+    "fuelCost": 2,
+    "travelRequirements": {
+      "anyOf": [
+        { "minShipUpgrade": { "drive": 2 } },
+        { "minShipUpgrade": { "sensors": 2 } }
+      ]
+    },
+    "travelLockedHint": "Requires Ley-Braided Drive Lv. 2 or Aether-Spectrum Sensors Lv. 2",
+    "baseDescription": "A matte-gray Syndicate dread-ring suspended in deep vacuum, bristling with cold-iron grounding lances aimed squarely at the Singing Monolith's sector.",
+    "descriptionVariants": [
+      {
+        "priority": 10,
+        "requirements": { "hasFlag": ["anchor9_allied"] },
+        "text": "The grounding lances stand powered down—Vane-Kael's crew monitoring the Deep Frontier beside you rather than firing."
+      },
+      {
+        "priority": 11,
+        "requirements": { "hasFlag": ["anchor9_disabled"] },
+        "text": "Dark and adrift, Anchor-9's firing ring spins slowly with its command relays locked cold."
+      },
+      {
+        "priority": 12,
+        "requirements": { "hasFlag": ["anchor9_destroyed"] },
+        "text": "Shattered lance-pylons tumble around the ring's scorched core—a silent monument to a broken blockade."
+      }
+    ]
+  },
+  {
+    "id": "frontier_monolith",
+    "name": "The Singing Monolith",
+    "region": "Deep Frontier",
+    "category": "frontier",
+    "fuelCost": 2,
+    "travelRequirements": {
+      "anyOf": [
+        { "minShipUpgrade": { "drive": 2 } },
+        { "minShipUpgrade": { "sensors": 2 } }
+      ]
+    },
+    "travelLockedHint": "Requires Ley-Braided Drive Lv. 2 or Aether-Spectrum Sensors Lv. 2",
+    "baseDescription": "A three-hundred-meter obelisk of matte-black basalt hangs upright in vacuum, ringed by shattered rings of ancient brass. A low chord vibrates straight through your ship's bulkheads into your teeth.",
+    "descriptionVariants": [
+      {
+        "priority": 10,
+        "requirements": { "hasFlag": ["monolith_awakened"] },
+        "text": "Pale cyan script now crawls slowly up the monolith's fluted faces, answering the tuning fork tucked in your gear."
+      },
+      {
+        "priority": 20,
+        "requirements": { "hasFlag": ["monolith_severed"] },
+        "text": "The obelisk hangs dark and mute in vacuum—its singing rings snapped cold by your grounding spike."
+      },
+      {
+        "priority": 21,
+        "requirements": { "hasFlag": ["monolith_harvested"] },
+        "text": "Scorch-scars mar the basalt plinth where you bled its harmonic core dry, leaving only a faint metallic hum."
+      }
+    ]
+  }
+]
